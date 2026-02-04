@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #181818;
+  height: 200px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 129px;
+}
