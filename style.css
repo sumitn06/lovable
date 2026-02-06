@@ -173,7 +173,11 @@ main img {
 }
 
 .introducing-btn a:hover {
-  background-color: rgba(0, 0, 0, 0.244);
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+.introducing-btn a:hover i {
+  translate: 2px;
 }
 
 .introducing-btn span {
@@ -192,6 +196,7 @@ main img {
 .introducing-btn a i {
   padding-top: 0.4rem;
   font-size: 0.65rem;
+  transition: all 0.4s ease-in-out;
 }
 
 main h1 {
@@ -204,15 +209,94 @@ main > p {
   color: #fcfbf8a6;
 }
 
-.form-input {
+.input-container {
   width: 60vw;
   height: 25vh;
-  background-color: rgb(46, 45, 45);
-  margin: 1.75rem;
+  background-color: #272725;
+  margin-top: 1.5rem;
   border-radius: 2rem;
+  border: 1px solid black;
+  padding: 1.2rem 1.2rem 0.75rem 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.form-input textarea {
-  height: 60%;
-  width: 90%;
+.input-container input {
+  width: 100%;
+  height: 20%;
+  border: none;
+  outline: none;
+  padding-left: 0.5rem;
+  background-color: #272725;
+  color: #e4e4e4;
+  font-size: 1rem;
+}
+
+.input-container input::placeholder {
+  color: #c5c1baec;
+  font-size: 1rem;
+}
+
+.option-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option-container .options {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.options svg {
+  height: 1.2rem;
+}
+
+.option-container .plus-icon {
+  font-size: 1rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  color: rgba(255, 255, 255, 0.904);
+}
+
+.option-container .plus-icon:hover {
+  background-color: #c5c1ba3a;
+}
+
+.option-container .options button {
+  color: #c5c1ba;
+  background-color: #272725;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.option-container .options button:hover {
+  background-color: #51514d64;
+}
+
+.option-container .options i {
+  height: 1rem;
+  color: #272725;
+}
+
+.option-container .options > span {
+  padding-top: 0.3rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 50%;
+}
+
+.option-container .options > span:hover {
+  background-color: #c5c1ba3a;
+}
+
+.option-container .options span:nth-child(3) {
+  background-color: #c5c1ba91;
+  padding: 0.4rem;
+  border-radius: 50%;
+}
+
+.box {
+  height: 100vh;
 }
