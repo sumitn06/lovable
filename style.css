@@ -47,7 +47,7 @@ header {
 nav {
   display: flex;
   color: #fcfbf8;
-  gap: 30px;
+  gap: 1.6rem;
   font-size: 0.85rem;
   align-items: center;
   font-weight: 500;
@@ -95,16 +95,16 @@ nav p:hover {
 }
 
 .resouces-option {
-  height: 100px;
-  width: 200px;
+  height: 18vh;
+  width: 19vw;
   position: absolute;
   background-color: #181818e3;
-  border-radius: 15px;
+  border-radius: 1rem;
   top: 7vh;
   display: none;
-  padding: 18px 0 0 18px;
-  gap: 8px;
-  border: 1px solid #c9c7c1;
+  padding: 1.1rem 0 0 1.2rem;
+  gap: 0.6rem;
+  border: 1px solid #c9c7c142;
 }
 
 .resources-container {
@@ -142,6 +142,11 @@ main {
   position: relative;
   z-index: 999;
   overflow: hidden;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30vh 0 0 0;
 }
 
 main img {
@@ -150,4 +155,51 @@ main img {
   z-index: -999;
   top: 0;
   scale: 2;
+}
+
+.introducing-btn {
+  margin-right: 1rem;
+}
+
+.introducing-btn a {
+  display: flex;
+  justify-content: center;
+  color: rgba(239, 246, 255, 1);
+  background-color: rgba(0, 0, 0, 0.128);
+  margin-bottom: 4vh;
+  gap: 0.4rem;
+  padding: 0.6rem 0.6rem;
+  border-radius: 1.6rem;
+}
+
+.introducing-btn a:hover {
+  background-color: rgba(0, 0, 0, 0.244);
+}
+
+.introducing-btn span {
+  background-color: rgb(59 130 246);
+  padding: 0.3rem 0.5rem;
+  border-radius: 1rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.introducing-btn a p {
+  font-size: 0.875rem;
+  padding-top: 0.15rem;
+}
+
+.introducing-btn a i {
+  padding-top: 0.4rem;
+  font-size: 0.65rem;
+}
+
+main h1 {
+  font-size: 2.8rem;
+}
+
+main > p {
+  padding: 0.75rem 0 1.5rem 0;
+  font-size: 1.25rem;
+  color: #fcfbf8a6;
 }
