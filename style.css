@@ -37,7 +37,7 @@ header {
 
 .header-left {
   display: flex;
-  gap: 30px;
+  gap: 1.8rem;
 }
 
 .header-left a img:hover {
@@ -146,7 +146,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30vh 0 0 0;
+  padding-top: 30vh;
 }
 
 main img {
@@ -168,7 +168,7 @@ main img {
   background-color: rgba(0, 0, 0, 0.128);
   margin-bottom: 4vh;
   gap: 0.4rem;
-  padding: 0.6rem 0.6rem;
+  padding: 0.6rem;
   border-radius: 1.6rem;
 }
 
@@ -276,11 +276,6 @@ main > p {
   background-color: #51514d64;
 }
 
-.option-container .options i {
-  height: 1rem;
-  color: #272725;
-}
-
 .option-container .options > span {
   padding-top: 0.3rem;
   padding: 0.3rem 0.4rem;
@@ -292,11 +287,106 @@ main > p {
 }
 
 .option-container .options span:nth-child(3) {
-  background-color: #c5c1ba91;
+  font-size: 1rem;
+  background-color: #cfccc691;
+  color: #272725;
   padding: 0.4rem;
   border-radius: 50%;
 }
 
 .box {
   height: 100vh;
+}
+
+/* image section */
+
+.img-section1 {
+  background-color: #1c1c1a;
+  padding: 4.5rem 3rem;
+}
+
+.img-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-heading h2 {
+  color: #fcfbf8;
+  font-size: 1.4rem;
+  padding-bottom: 0.6rem;
+}
+
+.img-heading h3 {
+  color: #c5c1ba;
+  font-size: 1.1rem;
+}
+
+.img-section-icon {
+  padding-right: 1rem;
+}
+
+.img-section-icon a {
+  font-size: 0.85rem;
+  color: #fcfbf8;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.3rem;
+}
+
+.img-section-icon a:hover {
+  background-color: rgba(93, 86, 86, 0.717);
+}
+
+.img-section-icon i {
+  font-size: 0.9rem;
+  padding-left: 5px;
+}
+
+.img-container {
+  margin: 1.6rem 0;
+}
+
+.img-container .container1 {
+  display: flex;
+  gap: 1.65rem;
+}
+
+.img-container .container2 {
+  display: flex;
+  gap: 1.65rem;
+  padding-top: 1.7rem;
+}
+
+.img-container .img-content img {
+  width: 21vw;
+  border-radius: 0.7rem;
+}
+
+.img-content .img-text {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0.5rem;
+}
+
+.img-content .img-text span:first-child {
+  color: #fcfbf8;
+  font-size: 1rem;
+}
+
+.img-content .img-text span:last-child {
+  color: #c5c1ba;
+  font-size: 0.85rem;
+  padding-top: 0.25rem;
+}
+
+.img-section2 {
+  background-color: #1c1c1a;
+  padding: 0 3rem;
+}
+
+.img-section2 .img-content .logo img {
+  width: 2.5rem;
+}
+
+.img-section2 .img-content .img-text {
+  display: flex;
 }
