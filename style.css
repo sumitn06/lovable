@@ -356,12 +356,19 @@ main > p {
   padding-top: 1.7rem;
 }
 
-.img-container .img-content img {
+.img-container .container1 .img-content .main-img {
   width: 21vw;
+  height: 26vh;
   border-radius: 0.7rem;
 }
 
-.img-content .img-text {
+.img-container .container2 .img-content .main-img {
+  width: 21vw;
+  height: 26vh;
+  border-radius: 0.7rem;
+}
+
+.img-section1 .img-content .img-text {
   display: flex;
   flex-direction: column;
   padding-top: 0.5rem;
@@ -385,8 +392,37 @@ main > p {
 
 .img-section2 .img-content .logo img {
   width: 2.5rem;
+  border-radius: 0.5rem;
 }
 
-.img-section2 .img-content .img-text {
+.img-section2 .img-content .examai img {
+  height: 2.3rem;
+}
+
+.img-section2 .img-container .img-text {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0.5rem;
+}
+
+.img-section2 .img-container .img-text .img-info span {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-section2 .img-container .img-text i {
+  color: rgba(255, 255, 255, 0.788);
+  font-size: 0.85rem;
+}
+
+.img-section2 {
+  padding-bottom: 2rem;
+}
+
+/* footer */
+
+footer {
+  height: 100vh;
+  background-color: #1a1919;
 }
