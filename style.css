@@ -520,3 +520,17 @@ footer {
 .footer-container .text-box a:hover {
   color: #c5c1ba;
 }
+
+/* responsive code */
+
+@media (width <= 1024px) {
+  .header-left nav {
+    display: none;
+  }
+}
+
+@media (width <= 768px) {
+  .header-right .login-btn {
+    display: none;
+  }
+}
